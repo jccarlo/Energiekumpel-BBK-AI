@@ -26,10 +26,21 @@ To run the program, you need to set up a few things:
 
 ### 2. Installation
 
-You need to have Python and the required packages installed. If you haven't already, install the required packages using pip:
+You need to have Python and Jupyter Notebook installed. If you haven’t installed them yet, follow these steps:
 
-```bash
-pip install requests python-dotenv
+1. **Install Python**: Download and install Python from [python.org](https://www.python.org/) if it is not already installed on your system.
+
+2. **Install Jupyter Notebook**: You can install Jupyter Notebook using pip. Run the following command:
+
+    ```bash
+    pip install jupyter
+    ```
+
+3. **Install Required Packages**: Install the required Python packages using pip:
+
+    ```bash
+    pip install requests python-dotenv
+    ```
 
 ### 3. Running the Notebook
 
