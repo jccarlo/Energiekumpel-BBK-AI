@@ -31,17 +31,17 @@ You need to have Python and the required packages installed. If you haven't alre
 ```bash
 pip install requests python-dotenv
 
-### 3. Running the Program
+### 3. Running the Notebook
 
 1. Ensure that your `.env` file is correctly set up with your OpenAI API key.
 2. Place the images you want to classify in the `images` folder.
-3. Run the script using Python:
+3. Open the Jupyter Notebook file in Jupyter Notebook or JupyterLab:
 
     ```bash
-    python script_name.py
+    jupyter notebook image_classification.ipynb
     ```
 
-   Replace `script_name.py` with the actual name of your Python script file.
+4. Execute the cells in the notebook to run the classification process.
 
 ### 4. Output
 
